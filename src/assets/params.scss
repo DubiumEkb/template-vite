@@ -1,0 +1,15 @@
+:root {
+	--background-color: #ffffff;
+	--text-color: #000000;
+
+	--param-back: rgba(225, 225, 225, 0.75);
+	--param-bord: rgba(255, 255, 255, 0.125);
+}
+
+:root[data-theme="dark"] {
+	--background-color: #000000;
+	--text-color: #ffffff;
+
+	--param-back: rgba(30, 30, 30, 0.75);
+	--param-bord: rgba(30, 30, 30, 0.125);
+}
